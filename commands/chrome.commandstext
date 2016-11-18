@@ -4,8 +4,8 @@
 <database>
     <databaseInfo>
         <version>134481920</version>
-        <UUID>D9AE92D6-7E85-40D0-BBC9-F817AE13A790</UUID>
-        <nextObjectID>191</nextObjectID>
+        <UUID>593F9C62-6B9A-44F9-9558-0757FE5D452F</UUID>
+        <nextObjectID>197</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -40,98 +40,7 @@
             </plist>
         </metadata>
     </databaseInfo>
-    <object type="TRIGGER" id="z102">
-        <attribute name="string" type="string">Last Tab</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Navigate to the last tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z158"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z103">
-        <attribute name="text" type="string">Shift-Command-r</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z155"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z104">
-        <attribute name="string" type="string">Open New</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open URL in a new tab</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z105"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z105">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-201303071</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z157"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z104"></relationship>
-    </object>
-    <object type="ACTION" id="z106">
-        <attribute name="text" type="string">Command-1</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z109"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z107">
-        <attribute name="string" type="string">Google Search</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Navigate to Google.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z142"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z108">
-        <attribute name="text" type="string">Command-y</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z115"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z109">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-2075462720</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z106"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z151"></relationship>
-    </object>
-    <object type="COMMAND" id="z110">
+    <object type="COMMAND" id="z102">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -151,254 +60,32 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z138"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z136"></relationship>
-    </object>
-    <object type="COMMAND" id="z111">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">2044710505</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z174"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z128"></relationship>
-    </object>
-    <object type="TRIGGER" id="z112">
-        <attribute name="string" type="string">Next Match</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Jump to the next match to your Find Bar search.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z162"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z113">
-        <attribute name="string" type="string">Down</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Scroll down a webpage, a screen at a time.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z114">
-        <attribute name="text" type="string">Escape</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z115">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1835183251</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z108"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z159"></relationship>
-    </object>
-    <object type="COMMAND" id="z116">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-754143658</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z165"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z166"></relationship>
-    </object>
-    <object type="ACTION" id="z117">
-        <attribute name="text" type="string">F</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z168"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z118">
-        <attribute name="string" type="string">Link</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open a link in the current tab</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z119">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1471630262</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z181"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z135"></relationship>
-    </object>
-    <object type="COMMAND" id="z120">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1566938798</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z187"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z144"></relationship>
-    </object>
-    <object type="COMMAND" id="z121">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1758216247</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z183"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z139"></relationship>
-    </object>
-    <object type="TRIGGER" id="z122">
-        <attribute name="string" type="string">Stop</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Stop the page loading.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z123">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1079431753</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z146"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z163"></relationship>
         <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z191"></relationship>
     </object>
-    <object type="ACTION" id="z124">
-        <attribute name="text" type="string">Hidden Command Text</attribute>
+    <object type="ACTION" id="z103">
+        <attribute name="text" type="string">Command-,</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
-    </object>
-    <object type="ACTION" id="z125">
-        <attribute name="text" type="string">y y</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z189"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z114"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z126">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
+    <object type="TRIGGER" id="z104">
+        <attribute name="string" type="string">Incognito</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1881489767</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z114"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z122"></relationship>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open a new window in Incognito mode.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z165"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z127">
+    <object type="ACTION" id="z105">
+        <attribute name="text" type="string">Option-Command-RightArrow</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z106">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -418,526 +105,63 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z179"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z133"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z196"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z149"></relationship>
     </object>
-    <object type="TRIGGER" id="z128">
-        <attribute name="string" type="string">Previous Match</attribute>
+    <object type="TRIGGER" id="z107">
+        <attribute name="string" type="string">Link New</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Jump to the previous match to your Find Bar search.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z111"></relationship>
+        <attribute name="desc" type="string">Open a link in a new tab</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z173"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z129">
-        <attribute name="string" type="string">Open</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open URL</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z153"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z130">
-        <attribute name="text" type="string">o</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z153"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z131">
-        <attribute name="string" type="string">Previous Tab</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Jump to the previous open tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z156"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z132">
-        <attribute name="text" type="string">Option-Command-f</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z161"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z133">
-        <attribute name="string" type="string">Close Window</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Closes the current window.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z134">
-        <attribute name="text" type="string">Command-,</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z135">
-        <attribute name="string" type="string">Incognito</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open a new window in Incognito mode.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z119"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z136">
-        <attribute name="string" type="string">Bottom</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Navigate to the bottom of the page.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z110"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z137">
-        <attribute name="text" type="string">Option-Command-RightArrow</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z172"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z138">
-        <attribute name="text" type="string">Shift-g</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z110"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z139">
+    <object type="TRIGGER" id="z108">
         <attribute name="string" type="string">Find</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Open the Find Bar to search the current page.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z121"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z171"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="ACTION" id="z140">
-        <attribute name="text" type="string">Shift-Space</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z173"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z141">
+    <object type="TRIGGER" id="z109">
         <attribute name="string" type="string">Top</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Navigate to the top of the page.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z164"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z172"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z142">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">URL</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
+    <object type="ACTION" id="z110">
+        <attribute name="text" type="string">Shift-Space</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-219304721</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z154"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z107"></relationship>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="ACTION" id="z143">
+    <object type="ACTION" id="z111">
         <attribute name="text" type="string">g i</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z167"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z144">
+    <object type="TRIGGER" id="z112">
         <attribute name="string" type="string">New Tab</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Open a new tab and move to it.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z175"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="ACTION" id="z145">
-        <attribute name="text" type="string">Space</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z146">
-        <attribute name="text" type="string">Command-l</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z123"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z147">
-        <attribute name="string" type="string">Close Tab</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Close the current tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z188"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z148">
-        <attribute name="text" type="string">Command-9</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z158"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z149">
-        <attribute name="string" type="string">Reload</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Reload your current page, ignoring cached content.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z155"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z150">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">*Hidden*</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">39429023</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION" idrefs="z124"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER" idrefs="z171"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z124"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z171"></relationship>
-    </object>
-    <object type="TRIGGER" id="z151">
-        <attribute name="string" type="string">First Tab</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Navigate to the first tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z109"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z152">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-412784778</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z163"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z118"></relationship>
-    </object>
-    <object type="COMMAND" id="z153">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">754144044</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z130"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z129"></relationship>
-    </object>
-    <object type="ACTION" id="z154">
-        <attribute name="text" type="string">https://encrypted.google.com/</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z142"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z155">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1303123427</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z103"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z149"></relationship>
-    </object>
-    <object type="COMMAND" id="z156">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-318782251</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z177"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z131"></relationship>
-    </object>
-    <object type="ACTION" id="z157">
-        <attribute name="text" type="string">Shift-O</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z105"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z158">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1279327437</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z148"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z102"></relationship>
-    </object>
-    <object type="TRIGGER" id="z159">
-        <attribute name="string" type="string">History</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open the History page in a new tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z115"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z160">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1047217595</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z145"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z113"></relationship>
-    </object>
-    <object type="COMMAND" id="z161">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-2031298683</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z132"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z178"></relationship>
-    </object>
-    <object type="COMMAND" id="z162">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1828058665</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z169"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z112"></relationship>
-    </object>
-    <object type="ACTION" id="z163">
-        <attribute name="text" type="string">f</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z164">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-708201647</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z185"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z141"></relationship>
-    </object>
-    <object type="ACTION" id="z165">
-        <attribute name="text" type="string">Command-h</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z116"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z166">
-        <attribute name="string" type="string">Hide</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Hide the browser window</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z116"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z167">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">858342713</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z143"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z186"></relationship>
-    </object>
-    <object type="COMMAND" id="z168">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">193403179</attribute>
-        <attribute name="appversion" type="int32">47</attribute>
-        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z117"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z176"></relationship>
-    </object>
-    <object type="ACTION" id="z169">
+    <object type="ACTION" id="z113">
         <attribute name="text" type="string">Command-g</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z162"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z184"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z170">
+    <object type="COMMAND" id="z114">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -957,18 +181,48 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z134"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z180"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z103"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z151"></relationship>
     </object>
-    <object type="TRIGGER" id="z171">
-        <attribute name="string" type="string">Hidden Command Name</attribute>
+    <object type="TRIGGER" id="z115">
+        <attribute name="string" type="string">Next Match</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Hidden Command Description</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
+        <attribute name="desc" type="string">Jump to the next match to your Find Bar search.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z184"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z172">
+    <object type="TRIGGER" id="z116">
+        <attribute name="string" type="string">Close Tab</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Close the current tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z176"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z117">
+        <attribute name="text" type="string">Command-9</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z133"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z118">
+        <attribute name="string" type="string">Stop</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Stop the page loading.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z140"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z119">
+        <attribute name="text" type="string">Command-l</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z131"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z120">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -988,10 +242,47 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z137"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z182"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z105"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z154"></relationship>
     </object>
-    <object type="COMMAND" id="z173">
+    <object type="ACTION" id="z121">
+        <attribute name="text" type="string">Space</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z189"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z122">
+        <attribute name="string" type="string">Back</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open the previous page in your browsing history for the current tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z177"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z123">
+        <attribute name="string" type="string">Link</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open a link in the current tab</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z143"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z124">
+        <attribute name="text" type="string">Hidden Command Text</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
+    </object>
+    <object type="ACTION" id="z125">
+        <attribute name="text" type="string">Command-h</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z139"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z126">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -1011,115 +302,17 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z140"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z184"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z110"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z156"></relationship>
     </object>
-    <object type="ACTION" id="z174">
-        <attribute name="text" type="string">Shift-Command-g</attribute>
+    <object type="ACTION" id="z127">
+        <attribute name="text" type="string">y y</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z111"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z157"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z175">
-        <attribute name="string" type="string">Copy URL</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Copy the URL to the clipboard</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z189"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z176">
-        <attribute name="string" type="string">Link New</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open a link in a new tab</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z168"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z177">
-        <attribute name="text" type="string">Option-Command-LeftArrow</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z156"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z178">
-        <attribute name="string" type="string">Search</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Search the web.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z161"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z179">
-        <attribute name="text" type="string">Shift-Command-w</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z180">
-        <attribute name="string" type="string">Settings</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Open settings in a new window.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z181">
-        <attribute name="text" type="string">Shift-Command-n</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z119"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z182">
-        <attribute name="string" type="string">Next Tab</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Jump to the next open tab.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z172"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z183">
-        <attribute name="text" type="string">Command-f</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z121"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z184">
-        <attribute name="string" type="string">Up</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Scroll up a webpage, a screen at a time.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z173"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z185">
-        <attribute name="text" type="string">g g</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z164"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z186">
-        <attribute name="string" type="string">Focus</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Focus the first text input on the page.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z167"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z187">
-        <attribute name="text" type="string">Command-t</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z188">
+    <object type="COMMAND" id="z128">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -1132,17 +325,398 @@
         <attribute name="iscommand" type="bool">1</attribute>
         <attribute name="engineid" type="int32">-1</attribute>
         <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">707272570</attribute>
+        <attribute name="commandid" type="int32">858342713</attribute>
         <attribute name="appversion" type="int32">47</attribute>
         <attribute name="appbundle" type="string">com.google.Chrome</attribute>
         <attribute name="active" type="bool">1</attribute>
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z190"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z147"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z111"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z159"></relationship>
     </object>
-    <object type="COMMAND" id="z189">
+    <object type="COMMAND" id="z129">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1303123427</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z179"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z137"></relationship>
+    </object>
+    <object type="TRIGGER" id="z130">
+        <attribute name="string" type="string">Hidden Command Name</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Hidden Command Description</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z170"></relationship>
+    </object>
+    <object type="COMMAND" id="z131">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1079431753</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z119"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z162"></relationship>
+    </object>
+    <object type="COMMAND" id="z132">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1835183251</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z144"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z181"></relationship>
+    </object>
+    <object type="COMMAND" id="z133">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1279327437</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z117"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z166"></relationship>
+    </object>
+    <object type="COMMAND" id="z134">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-201303071</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z183"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z168"></relationship>
+    </object>
+    <object type="COMMAND" id="z135">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-2075462720</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z138"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z180"></relationship>
+    </object>
+    <object type="TRIGGER" id="z136">
+        <attribute name="string" type="string">Google Search</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Navigate to Google.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z188"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z137">
+        <attribute name="string" type="string">Reload</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Reload your current page, ignoring cached content.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z129"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z138">
+        <attribute name="text" type="string">Command-1</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z139">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-754143658</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z125"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z174"></relationship>
+    </object>
+    <object type="COMMAND" id="z140">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1881489767</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z187"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z118"></relationship>
+    </object>
+    <object type="ACTION" id="z141">
+        <attribute name="text" type="string">f</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z143"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z142">
+        <attribute name="string" type="string">Down</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Scroll down a webpage, a screen at a time.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z189"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z143">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-412784778</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z141"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z123"></relationship>
+    </object>
+    <object type="ACTION" id="z144">
+        <attribute name="text" type="string">Command-y</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z145">
+        <attribute name="text" type="string">o</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z146">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">754144044</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z145"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z192"></relationship>
+    </object>
+    <object type="TRIGGER" id="z147">
+        <attribute name="string" type="string">Previous Tab</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Jump to the previous open tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z169"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z148">
+        <attribute name="text" type="string">Option-Command-f</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z149">
+        <attribute name="string" type="string">Close Window</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Closes the current window.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z106"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z150">
+        <attribute name="text" type="string">Command-RightArrow</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z151">
+        <attribute name="string" type="string">Settings</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open settings in a new window.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z114"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z152">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-2031298683</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z148"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z194"></relationship>
+    </object>
+    <object type="ACTION" id="z153">
+        <attribute name="text" type="string">Shift-Command-n</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z165"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z154">
+        <attribute name="string" type="string">Next Tab</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Jump to the next open tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z155">
+        <attribute name="text" type="string">Command-f</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z171"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z156">
+        <attribute name="string" type="string">Up</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Scroll up a webpage, a screen at a time.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z157">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -1162,22 +736,524 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z125"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z175"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z127"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z178"></relationship>
+    </object>
+    <object type="ACTION" id="z158">
+        <attribute name="text" type="string">g g</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z172"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z159">
+        <attribute name="string" type="string">Focus</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Focus the first text input on the page.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z160">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1118557091</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z150"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z197"></relationship>
+    </object>
+    <object type="ACTION" id="z161">
+        <attribute name="text" type="string">Command-t</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z175"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z162">
+        <attribute name="string" type="string">Select URL</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Select the URL</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z131"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z163">
+        <attribute name="text" type="string">Shift-g</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z102"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z164">
+        <attribute name="text" type="string">Command-w</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z176"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z165">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1471630262</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z153"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z104"></relationship>
+    </object>
+    <object type="TRIGGER" id="z166">
+        <attribute name="string" type="string">Last Tab</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Navigate to the last tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z133"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z167">
+        <attribute name="text" type="string">Command-LeftArrow</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z177"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z168">
+        <attribute name="string" type="string">Open New</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open URL in a new tab</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z134"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z169">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-318782251</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z193"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z147"></relationship>
+    </object>
+    <object type="COMMAND" id="z170">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">*Hidden*</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">845231011</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION" idrefs="z124"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER" idrefs="z130"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z124"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z130"></relationship>
+    </object>
+    <object type="COMMAND" id="z171">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1758216247</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z155"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z108"></relationship>
+    </object>
+    <object type="COMMAND" id="z172">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-708201647</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z158"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z109"></relationship>
+    </object>
+    <object type="COMMAND" id="z173">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">193403179</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z190"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z107"></relationship>
+    </object>
+    <object type="TRIGGER" id="z174">
+        <attribute name="string" type="string">Hide</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Hide the browser window</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z139"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z175">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1566938798</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z161"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z112"></relationship>
+    </object>
+    <object type="COMMAND" id="z176">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">707272570</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z164"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z116"></relationship>
+    </object>
+    <object type="COMMAND" id="z177">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1662223746</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z167"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z122"></relationship>
+    </object>
+    <object type="TRIGGER" id="z178">
+        <attribute name="string" type="string">Copy URL</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Copy the URL to the clipboard</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z157"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z179">
+        <attribute name="text" type="string">Shift-Command-r</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z129"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z180">
+        <attribute name="string" type="string">First Tab</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Navigate to the first tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z181">
+        <attribute name="string" type="string">History</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open the History page in a new tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z182">
+        <attribute name="text" type="string">Shift-Command-g</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z185"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z183">
+        <attribute name="text" type="string">Shift-O</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z134"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z184">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1828058665</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z113"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z115"></relationship>
+    </object>
+    <object type="COMMAND" id="z185">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">2044710505</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z182"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z186"></relationship>
+    </object>
+    <object type="TRIGGER" id="z186">
+        <attribute name="string" type="string">Previous Match</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Jump to the previous match to your Find Bar search.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z185"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z187">
+        <attribute name="text" type="string">Escape</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z140"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z188">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">URL</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-219304721</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z195"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z136"></relationship>
+    </object>
+    <object type="COMMAND" id="z189">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1047217595</attribute>
+        <attribute name="appversion" type="int32">47</attribute>
+        <attribute name="appbundle" type="string">com.google.Chrome</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z121"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z142"></relationship>
     </object>
     <object type="ACTION" id="z190">
-        <attribute name="text" type="string">Command-w</attribute>
+        <attribute name="text" type="string">F</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z173"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z191">
+        <attribute name="string" type="string">Bottom</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Navigate to the bottom of the page.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z102"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z192">
+        <attribute name="string" type="string">Open</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Open URL</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z193">
+        <attribute name="text" type="string">Option-Command-LeftArrow</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z169"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z194">
+        <attribute name="string" type="string">Search</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Search the web.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z195">
+        <attribute name="text" type="string">https://encrypted.google.com/</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <relationship name="command" type="1/1" destination="COMMAND" idrefs="z188"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z191">
-        <attribute name="string" type="string">Select URL</attribute>
+    <object type="ACTION" id="z196">
+        <attribute name="text" type="string">Shift-Command-w</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z106"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z197">
+        <attribute name="string" type="string">Forward</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Select the URL</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z123"></relationship>
+        <attribute name="desc" type="string">Open the next page in your browsing history for the current tab.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
 </database>
