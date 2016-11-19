@@ -20,6 +20,20 @@
 			<key>Written</key>
 			<string>Github</string>
 		</dict>
+		<dict>
+			<key>EngineFlags</key>
+			<integer>1</integer>
+			<key>Flags</key>
+			<string>1</string>
+			<key>Sense</key>
+			<string></string>
+			<key>Source</key>
+			<string>User</string>
+			<key>Spoken</key>
+			<string>now secure</string>
+			<key>Written</key>
+			<string>NowSecure</string>
+		</dict>
 	</array>
 </dict>
 </plist>
