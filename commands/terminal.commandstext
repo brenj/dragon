@@ -4,8 +4,8 @@
 <database>
     <databaseInfo>
         <version>134481920</version>
-        <UUID>4EEE71DE-2D4D-4BF9-BF33-DED0ECA4B5B4</UUID>
-        <nextObjectID>155</nextObjectID>
+        <UUID>EEB150D9-8507-425E-ACB9-D8A25AC3BF56</UUID>
+        <nextObjectID>164</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -41,213 +41,70 @@
         </metadata>
     </databaseInfo>
     <object type="TRIGGER" id="z102">
-        <attribute name="string" type="string">List Files</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">List files in the current directory.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z125"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z103">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1713479102</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z138"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z107"></relationship>
-    </object>
-    <object type="COMMAND" id="z104">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-387238448</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z154"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z155"></relationship>
-    </object>
-    <object type="ACTION" id="z105">
-        <attribute name="text" type="string">Option-t m</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z133"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z106">
-        <attribute name="text" type="string">c l e a r Return</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z115"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z107">
-        <attribute name="string" type="string">Minimize Pane</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Minimize the current pane.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z103"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z108">
-        <attribute name="text" type="string">Escape , z</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z109">
-        <attribute name="string" type="string">Save Buffer</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Save vim buffer.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z110">
         <attribute name="string" type="string">Maximize Pane</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Maximize the current pane.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z133"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z122"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z111">
+    <object type="TRIGGER" id="z103">
+        <attribute name="string" type="string">Make Directory</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">mkdir</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z164"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z104">
+        <attribute name="string" type="string">Rat</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">A return character.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z139"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z105">
         <attribute name="string" type="string">Left Pane</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Switch to tmux pane to the left.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z130"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z110"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z112">
-        <attribute name="string" type="string">Clear Terminal</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Clear the current terminal Window.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z115"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z113">
-        <attribute name="string" type="string">Zebra</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Save and close vim buffer.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z114">
-        <attribute name="string" type="string">Edit File</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Vim.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z115">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">839336650</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z106"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z112"></relationship>
-    </object>
-    <object type="ACTION" id="z116">
-        <attribute name="text" type="string">Option-t e</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z123"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z117">
-        <attribute name="text" type="string">Option-t |</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z124"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z118">
-        <attribute name="text" type="string">Escape , q</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z119">
-        <attribute name="string" type="string">Down Pane</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Switch to tmux pane below.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z137"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z120">
+    <object type="TRIGGER" id="z106">
         <attribute name="string" type="string">Right Pane</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Switch to tmux pane to the right.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z123"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z121">
-        <attribute name="string" type="string">New Vertical Pane</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Split current pane vertically.</attribute>
         <relationship name="command" type="1/1" destination="COMMAND" idrefs="z124"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="TRIGGER" id="z122">
-        <attribute name="string" type="string">Close Buffer</attribute>
+    <object type="TRIGGER" id="z107">
+        <attribute name="string" type="string">Hidden Command Name</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Close vim buffer without saving.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
+        <attribute name="desc" type="string">Hidden Command Description</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
+    </object>
+    <object type="TRIGGER" id="z108">
+        <attribute name="string" type="string">Zebra</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Save and close vim buffer.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z112"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z123">
+    <object type="TRIGGER" id="z109">
+        <attribute name="string" type="string">List Files</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">List files in the current directory.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z129"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z110">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -260,17 +117,55 @@
         <attribute name="iscommand" type="bool">1</attribute>
         <attribute name="engineid" type="int32">-1</attribute>
         <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">851487245</attribute>
+        <attribute name="commandid" type="int32">-2147062535</attribute>
         <attribute name="appversion" type="int32">2</attribute>
         <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
         <attribute name="active" type="bool">1</attribute>
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z116"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z120"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z163"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z105"></relationship>
     </object>
-    <object type="COMMAND" id="z124">
+    <object type="ACTION" id="z111">
+        <attribute name="text" type="string">v Space</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z118"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z112">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">709000202</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z158"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z108"></relationship>
+    </object>
+    <object type="TRIGGER" id="z113">
+        <attribute name="string" type="string">Clear Terminal</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Clear the current terminal Window.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z114">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -290,10 +185,255 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z117"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z121"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z130"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z154"></relationship>
     </object>
-    <object type="COMMAND" id="z125">
+    <object type="TRIGGER" id="z115">
+        <attribute name="string" type="string">Edit File</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Vim.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z118"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z116">
+        <attribute name="string" type="string">Show Windows</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Show tmux Windows to select from interactively.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z117">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-406865444</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z133"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z157"></relationship>
+    </object>
+    <object type="COMMAND" id="z118">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1979509014</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z111"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z115"></relationship>
+    </object>
+    <object type="COMMAND" id="z119">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1713479102</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z146"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z155"></relationship>
+    </object>
+    <object type="COMMAND" id="z120">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1375569853</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z136"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z159"></relationship>
+    </object>
+    <object type="ACTION" id="z121">
+        <attribute name="text" type="string">Option-t s</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z122">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1454578652</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z142"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z102"></relationship>
+    </object>
+    <object type="TRIGGER" id="z123">
+        <attribute name="string" type="string">Down Pane</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Switch to tmux pane below.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z126"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z124">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">851487245</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z147"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z106"></relationship>
+    </object>
+    <object type="ACTION" id="z125">
+        <attribute name="text" type="string">Escape , q</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z137"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z126">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1255247540</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z121"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z123"></relationship>
+    </object>
+    <object type="COMMAND" id="z127">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">*Hidden*</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-1573955444</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION" idrefs="z141"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER" idrefs="z107"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z141"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z107"></relationship>
+    </object>
+    <object type="COMMAND" id="z128">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">1516179381</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z144"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z161"></relationship>
+    </object>
+    <object type="COMMAND" id="z129">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -313,10 +453,92 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z141"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z102"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z149"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z109"></relationship>
     </object>
-    <object type="COMMAND" id="z126">
+    <object type="ACTION" id="z130">
+        <attribute name="text" type="string">Option-t |</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z114"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z131">
+        <attribute name="text" type="string">Tab</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z138"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z132">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">839336650</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z152"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z113"></relationship>
+    </object>
+    <object type="ACTION" id="z133">
+        <attribute name="text" type="string">Option-t t</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z117"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z134">
+        <attribute name="string" type="string">Bat</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Tab for auto complete and other purposes.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z138"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z135">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">512471297</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z140"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z116"></relationship>
+    </object>
+    <object type="ACTION" id="z136">
+        <attribute name="text" type="string">Escape , s c</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z137">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -336,17 +558,127 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z118"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z122"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z125"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z151"></relationship>
     </object>
-    <object type="ACTION" id="z127">
-        <attribute name="text" type="string">Option-t t</attribute>
+    <object type="COMMAND" id="z138">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">-387238448</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z131"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z134"></relationship>
+    </object>
+    <object type="COMMAND" id="z139">
+        <attribute name="version" type="int32">1</attribute>
+        <attribute name="vendor" type="string">brenj</attribute>
+        <attribute name="type" type="string">Keystroke</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isspelling" type="bool">0</attribute>
+        <attribute name="issleep" type="bool">0</attribute>
+        <attribute name="isdictation" type="bool">0</attribute>
+        <attribute name="iscorrection" type="bool">0</attribute>
+        <attribute name="iscommand" type="bool">1</attribute>
+        <attribute name="engineid" type="int32">-1</attribute>
+        <attribute name="display" type="bool">1</attribute>
+        <attribute name="commandid" type="int32">461149176</attribute>
+        <attribute name="appversion" type="int32">2</attribute>
+        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
+        <attribute name="active" type="bool">1</attribute>
+        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
+        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
+        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z145"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z104"></relationship>
+    </object>
+    <object type="ACTION" id="z140">
+        <attribute name="text" type="string">Option-t w</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z134"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z135"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z128">
+    <object type="ACTION" id="z141">
+        <attribute name="text" type="string">Hidden Command Text</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z127"></relationship>
+    </object>
+    <object type="ACTION" id="z142">
+        <attribute name="text" type="string">Option-t m</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z122"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z143">
+        <attribute name="text" type="string">Escape , s</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z144">
+        <attribute name="text" type="string">Option-t -</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z145">
+        <attribute name="text" type="string">Return</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z139"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z146">
+        <attribute name="text" type="string">Option-t m</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z119"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z147">
+        <attribute name="text" type="string">Option-t e</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z124"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z148">
+        <attribute name="string" type="string">Save Buffer</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Save vim buffer.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z150"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z149">
+        <attribute name="text" type="string">l s Return</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z129"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z150">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -367,146 +699,78 @@
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
         <relationship name="action" type="0/0" destination="ACTION" idrefs="z143"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z109"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z148"></relationship>
     </object>
-    <object type="TRIGGER" id="z129">
+    <object type="TRIGGER" id="z151">
+        <attribute name="string" type="string">Close Buffer</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Close vim buffer without saving.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z137"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z152">
+        <attribute name="text" type="string">c l e a r Return</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="ACTION" id="z153">
+        <attribute name="text" type="string">Escape , g s</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z154">
+        <attribute name="string" type="string">New Vertical Pane</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Split current pane vertically.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z114"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z155">
+        <attribute name="string" type="string">Minimize Pane</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Minimize the current pane.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z119"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z156">
+        <attribute name="string" type="string">Goat Status</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Fugitive git status.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z160"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="TRIGGER" id="z157">
         <attribute name="string" type="string">Up Pane</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Switch to tmux pane above.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z134"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z117"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z130">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-2147062535</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z147"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z111"></relationship>
-    </object>
-    <object type="ACTION" id="z131">
-        <attribute name="text" type="string">Hidden Command Text</attribute>
+    <object type="ACTION" id="z158">
+        <attribute name="text" type="string">Escape , z</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
-    </object>
-    <object type="COMMAND" id="z132">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-1979509014</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z150"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z114"></relationship>
-    </object>
-    <object type="COMMAND" id="z133">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1454578652</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z105"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z110"></relationship>
-    </object>
-    <object type="COMMAND" id="z134">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">-406865444</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z127"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z129"></relationship>
-    </object>
-    <object type="COMMAND" id="z135">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">709000202</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z108"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z113"></relationship>
-    </object>
-    <object type="ACTION" id="z136">
-        <attribute name="text" type="string">Option-t w</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z142"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z112"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z137">
+    <object type="TRIGGER" id="z159">
+        <attribute name="string" type="string">Syntax Check</attribute>
+        <attribute name="spokenlanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <attribute name="desc" type="string">Run syntax checker.</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z120"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z160">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -519,7 +783,7 @@
         <attribute name="iscommand" type="bool">1</attribute>
         <attribute name="engineid" type="int32">-1</attribute>
         <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1255247540</attribute>
+        <attribute name="commandid" type="int32">90355637</attribute>
         <attribute name="appversion" type="int32">2</attribute>
         <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
         <attribute name="active" type="bool">1</attribute>
@@ -527,136 +791,31 @@
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
         <relationship name="action" type="0/0" destination="ACTION" idrefs="z153"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z119"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z156"></relationship>
     </object>
-    <object type="ACTION" id="z138">
-        <attribute name="text" type="string">Option-t m</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z103"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z139">
-        <attribute name="string" type="string">Show Windows</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Show tmux Windows to select from interactively.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z142"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z140">
-        <attribute name="string" type="string">Hidden Command Name</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Hidden Command Description</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND" idrefs="z146"></relationship>
-    </object>
-    <object type="ACTION" id="z141">
-        <attribute name="text" type="string">l s Return</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z125"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z142">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">512471297</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z136"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z139"></relationship>
-    </object>
-    <object type="ACTION" id="z143">
-        <attribute name="text" type="string">Escape , s</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z144">
-        <attribute name="text" type="string">m k d i r Space</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z151"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z145">
-        <attribute name="text" type="string">Option-t -</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="COMMAND" id="z146">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">*Hidden*</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">973679771</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION" idrefs="z131"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER" idrefs="z140"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z131"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z140"></relationship>
-    </object>
-    <object type="ACTION" id="z147">
-        <attribute name="text" type="string">Option-t n</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z130"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z148">
-        <attribute name="string" type="string">Make Directory</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">mkdir</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z151"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z149">
+    <object type="TRIGGER" id="z161">
         <attribute name="string" type="string">New Horizontal Pane</attribute>
         <attribute name="spokenlanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
         <attribute name="desc" type="string">Split current pane horizontally.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z152"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z128"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="ACTION" id="z150">
-        <attribute name="text" type="string">v Space</attribute>
+    <object type="ACTION" id="z162">
+        <attribute name="text" type="string">m k d i r Space</attribute>
         <attribute name="oslanguage" type="string">en_US</attribute>
         <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z132"></relationship>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z164"></relationship>
         <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
     </object>
-    <object type="COMMAND" id="z151">
+    <object type="ACTION" id="z163">
+        <attribute name="text" type="string">Option-t n</attribute>
+        <attribute name="oslanguage" type="string">en_US</attribute>
+        <attribute name="isuser" type="bool">1</attribute>
+        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z110"></relationship>
+        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+    </object>
+    <object type="COMMAND" id="z164">
         <attribute name="version" type="int32">1</attribute>
         <attribute name="vendor" type="string">brenj</attribute>
         <attribute name="type" type="string">Keystroke</attribute>
@@ -676,52 +835,7 @@
         <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
         <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
         <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z144"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z148"></relationship>
-    </object>
-    <object type="COMMAND" id="z152">
-        <attribute name="version" type="int32">1</attribute>
-        <attribute name="vendor" type="string">brenj</attribute>
-        <attribute name="type" type="string">Keystroke</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isspelling" type="bool">0</attribute>
-        <attribute name="issleep" type="bool">0</attribute>
-        <attribute name="isdictation" type="bool">0</attribute>
-        <attribute name="iscorrection" type="bool">0</attribute>
-        <attribute name="iscommand" type="bool">1</attribute>
-        <attribute name="engineid" type="int32">-1</attribute>
-        <attribute name="display" type="bool">1</attribute>
-        <attribute name="commandid" type="int32">1516179381</attribute>
-        <attribute name="appversion" type="int32">2</attribute>
-        <attribute name="appbundle" type="string">com.apple.Terminal</attribute>
-        <attribute name="active" type="bool">1</attribute>
-        <relationship name="currentaction" type="1/1" destination="ACTION"></relationship>
-        <relationship name="currenttrigger" type="1/1" destination="TRIGGER"></relationship>
-        <relationship name="location" type="1/1" destination="LOCATION"></relationship>
-        <relationship name="action" type="0/0" destination="ACTION" idrefs="z145"></relationship>
-        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z149"></relationship>
-    </object>
-    <object type="ACTION" id="z153">
-        <attribute name="text" type="string">Option-t s</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z137"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="ACTION" id="z154">
-        <attribute name="text" type="string">Tab</attribute>
-        <attribute name="oslanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z104"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
-    </object>
-    <object type="TRIGGER" id="z155">
-        <attribute name="string" type="string">Bat</attribute>
-        <attribute name="spokenlanguage" type="string">en_US</attribute>
-        <attribute name="isuser" type="bool">1</attribute>
-        <attribute name="desc" type="string">Tab for auto complete and other purposes.</attribute>
-        <relationship name="command" type="1/1" destination="COMMAND" idrefs="z104"></relationship>
-        <relationship name="currentcommand" type="1/1" destination="COMMAND"></relationship>
+        <relationship name="action" type="0/0" destination="ACTION" idrefs="z162"></relationship>
+        <relationship name="trigger" type="1/0" destination="TRIGGER" idrefs="z103"></relationship>
     </object>
 </database>
